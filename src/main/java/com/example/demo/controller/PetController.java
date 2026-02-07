@@ -21,7 +21,7 @@ import com.example.demo.service.PetService;
 
 @RestController
 @RequestMapping("/pets")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://petadoption-teal.vercel.app")
 public class PetController {
     
     @Autowired
