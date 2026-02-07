@@ -20,7 +20,7 @@ import com.example.demo.model.Pet;
 import com.example.demo.service.PetService;
 
 @RestController
-@RequestMapping("/api/pets")
+@RequestMapping("/pets")
 @CrossOrigin(origins = "http://localhost:3000")
 public class PetController {
     
