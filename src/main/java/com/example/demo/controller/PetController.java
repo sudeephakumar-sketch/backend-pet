@@ -20,7 +20,7 @@ import com.example.demo.model.Pet;
 import com.example.demo.service.PetService;
 
 @RestController
-@RequestMapping("/pets")
+@RequestMapping("/api/pets")
 @CrossOrigin(origins = "https://petadoption-teal.vercel.app")
 public class PetController {
     
